@@ -1,0 +1,209 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #000;
+  color: #fff; }
+
+/* intro */
+.intro {
+  background-image: url(img/5dark.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 98vh;
+  color: #FFF;
+  width: 100%; }
+  .intro h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 35px; }
+  .intro a {
+    text-decoration: none; }
+  .intro h1 {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 20px;
+    font-size: 10em;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5px; }
+  .intro h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: -30px; }
+    .intro h3 div {
+      display: inline-block; }
+  .intro #leangap {
+    color: #000; }
+  .intro .intro-bottom {
+    margin-top: 250px; }
+  .intro button {
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-size: 0.6em;
+    width: 200px;
+    height: 45px;
+    margin-bottom: 0; }
+  .intro .intro-info {
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center; }
+  .intro .mentor-apply {
+    font-size: 0.3em;
+    padding: 0; }
+
+/*
+#v {
+    position:relative;
+    font-size: 20em;
+    font-family: 'Aroly';
+    text-align: center;
+    line-height: 1.1em;
+    margin-bottom: -100px;
+    padding-top: 50px;
+}
+*/
+/* info */
+.info {
+  background-color: #000;
+  position: relative;
+  font-size: 1.5em;
+  margin: 10px 0 20px 0; }
+  .info .content {
+    padding: 50px 60px 0 60px; }
+  .info .summary {
+    margin-top: 100px;
+    font-size: 1.5em; }
+    .info .summary span {
+      display: block;
+      height: auto;
+      width: auto;
+      line-height: 60px;
+      text-align: center; }
+    .info .summary i {
+      font-size: 40px;
+      width: 100%;
+      text-align: center; }
+
+/* detailed info */
+.detailed {
+  /*
+  background-image: url(img/real.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  */
+  background-color: #EEEEEE;
+  color: #FFF; }
+
+/* faq */
+.faq {
+  color: #000;
+  width: 100vw;
+  margin-top: 60px;
+  padding: 0 150px 100px 60px; }
+  .faq h2 {
+    font-size: 1.5em;
+    font-weight: 600; }
+  .faq p {
+    font-size: 1.5em;
+    margin-right: 50px;
+    font-weight: 300; }
+
+/* Sponsors */
+.sponsors {
+  padding: 60px; }
+  .sponsors button {
+    color: #FFF; }
+
+/* Apply */
+.apply {
+  background-color: #000;
+  padding: 60px;
+  padding-top: 120px;
+  font-size: 2em; }
+  .apply h2 {
+    margin-bottom: 40px; }
+  .apply p {
+    margin-top: -30px; }
+  .apply a {
+    text-decoration: none; }
+
+/* Contact */
+.contact {
+  background-color: #00ADB5;
+  padding: 60px;
+  margin-top: 80px;
+  padding: 50px;
+  text-align: right;
+  font-size: 2em; }
+  .contact h2 {
+    margin-bottom: 40px; }
+  .contact p {
+    margin-top: -30px; }
+  .contact a {
+    color: #0bfdbc;
+    transition: color 0.5s ease;
+    text-decoration: none; }
+  .contact a:hover {
+    color: #55707c; }
+  .contact img {
+    height: 100px;
+    margin: 0 20px; }
+  .contact h5 {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: -20px; }
+
+/* slant */
+.angle:after {
+  content: "";
+  border-top: 140px solid #000;
+  border-left: 100vw solid transparent;
+  position: absolute;
+  top: -1px; }
+
+.angle {
+  position: relative;
+  width: 0%;
+  height: 0px;
+  border-top: 1px solid transparent; }
+
+/* slant */
+.angle2:after {
+  content: "";
+  border-top: 140px solid #000;
+  border-right: 100vw solid #00ADB5;
+  position: absolute;
+  top: -1px; }
+
+.angle2 {
+  position: relative;
+  width: 0%;
+  height: 0px;
+  border-top: 1px solid transparent; }
+
+button {
+  transition: background-color 0.5s ease;
+  border-color: #00ADB5;
+  color: #FFF; }
+
+button:hover {
+  color: #FFF;
+  border-color: #00ADB5;
+  background-color: #00ADB5; }
+
+/*# sourceMappingURL=styles.css.map */
